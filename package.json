@@ -4,6 +4,9 @@
     "private": true,
     "main": "index.js",
     "license": "MIT",
+    "bin": {
+        "microbes": "./bin/microbes"
+    },
     "repository": {
         "type": "git",
         "url": "https://github.com/cbdowell/microbe-docker.git"
