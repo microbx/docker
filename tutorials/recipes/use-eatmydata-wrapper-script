@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+docker run -d mybuildautomation eatmydata /run_tests.sh

@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+IMG=dockerinpractice/tcpflow
+
+docker pull $IMG
+
+alias tcpflow="docker run --rm --net host $IMG"
+

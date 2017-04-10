@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+ID=$(docker export reduce | docker import -)
+
+docker tag $ID smaller
+
+docker images | grep smaller
+
+mkdir -p /tmp/tmp
+
+touch /tmp/tmp/a.log
+
+docker run -v /tmp/tmp:/log_dir smaller \
+    /usr/bin/clean_log 0 
+
+ls /tmp/tmp/a.log
+

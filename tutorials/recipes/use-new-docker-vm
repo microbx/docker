@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+eval $(docker-machine env host1)
+
+env | grep DOCKER
+
+docker ps -a
+
+docker-machine ssh host1

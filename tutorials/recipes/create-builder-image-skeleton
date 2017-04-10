@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+sti create sti-simple-shell /opt/sti-simple-shell
+
+cd /opt/sti-simple-shell

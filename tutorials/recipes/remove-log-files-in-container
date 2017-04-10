@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+find /var | grep '\.log$' | xargs rm -v

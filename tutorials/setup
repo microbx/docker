@@ -1,0 +1,69 @@
+#!/usr/bin bash
+
+## List Docker Networks
+docker network ls
+
+
+## Create Manager Virtual Machine
+docker-machine create \
+    --driver virtualbox \
+    --virtualbox-disk-size "10000" \
+    manager
+
+
+## Connect Shell To Virtual Machine
+eval "$(docker-machine env manager)"
+
+
+## Start Virtual Machine
+docker-machine start manager
+
+
+## Stop Virtual Machine
+docker-machine stop manager
+
+
+## Initialize Swarm
+docker swarm init --advertise-addr $(docker-machine ip manager)
+
+
+## Get Swarm token
+docker run swarm create
+
+
+## Join Worker Virtual Machine To Manager Swarm
+docker swarm join \
+    --token SWMTKN-1-3eqqfwtq73kgvgazby4mefqqsttc7h7m193l2ejrff4k7878xz-2xccewbo63aqebdfuaj5fij5o \
+    $(docker-machine ip manager):2377
+
+
+## Copy Docker Stack To Manager Virtual Machine
+docker-machine scp ./docker-stack.yml manager:/home/docker/
+
+
+## Log Into Manager Virtual Machine
+docker-machine ssh manager
+
+
+## Validate Docker Stack File Exist
+ls -al
+
+
+## Deploy Stack To Manager Virtual Machine
+docker stack deploy --compose-file docker-stack.yml vote
+
+
+## Verify that the stack deployed as expected
+docker stack services vote
+
+
+## List Current Virtual Machines
+docker-machine ls
+
+
+## Shut Down Worker
+docker-machine stop worker
+
+
+## Shut Down Manager
+docker-machine stop manager

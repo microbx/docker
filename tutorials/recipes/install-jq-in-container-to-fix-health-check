@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+docker exec consul-client sh -c 'apk update && apk add jq'
+
+
+docker exec consul-client sh -c \
+    'wget -qO - 172.17.42.1:8500/v1/agent/services | jq ".files.Port"'
+
+sleep 15
+
+curl -sSL 172.17.42.1:8500/v1/health/service/files | \
+    python -m json.tool | head -n 13
+

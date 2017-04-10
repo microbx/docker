@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+docker inspect ubuntu | head
+

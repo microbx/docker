@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+docker run -t -i --volumes-from dc busybox /bin/sh
+    / # ls /shared-data
+    somefile
+

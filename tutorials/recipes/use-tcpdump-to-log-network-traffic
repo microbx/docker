@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+tcpdump -XXs 0 -w /tmp/google.tcpdump &
+
+wget google.com

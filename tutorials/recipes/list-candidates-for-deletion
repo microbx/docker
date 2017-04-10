@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+cat /tmp/candidates.txt | xargs wc -c | sort -n | tail

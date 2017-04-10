@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+docker run -d swarm join --addr=10.194.8.7:2375 token://$CLUSTER_ID
+
+docker -H tcp://10.194.12.221:4000 info
+

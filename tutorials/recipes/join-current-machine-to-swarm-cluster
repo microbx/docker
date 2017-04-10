@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+ip addr show eth0 | grep 'inet '
+    inet 10.194.12.221/20 brd 10.194.15.255 scope global eth0
+
+docker run -d swarm join --addr=10.194.12.221:2375 token://$CLUSTER_ID
+
+docker run swarm list token://$CLUSTER_ID10.194.12.221:2375
+
+curl https://discovery-stage.hub.docker.com/v1/clusters/$CLUSTER_ID
+

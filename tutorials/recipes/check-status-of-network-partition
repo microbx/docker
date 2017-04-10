@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+docker exec 8c4d956cf9cf ping -qc 3 172.17.0.54
+
+

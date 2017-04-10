@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+tcpflow -J -c -i docker0 'host 172.17.0.1 and (src or dst port 80)'
+

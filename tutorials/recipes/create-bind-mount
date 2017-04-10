@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+mount --bind /opt/test/db /export
+

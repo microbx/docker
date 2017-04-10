@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+docker run -it --name c1 ubuntu:14.04.2 bash
+
+apt-get update && apt-get install -y wget
+
+ping -q -c 5 www.docker.com
+
+time wget -o /dev/null https://www.docker.com

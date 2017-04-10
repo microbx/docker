@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+comm -3 \
+    <(docker ps -a -q --filter=status=exited | sort) \
+    <(docker ps -a -q --filter=exited=0 | sort) | \
+    xargs --no-run-if-empty docker inspect > error_containers
+

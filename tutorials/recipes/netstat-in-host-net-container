@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+docker run -ti --net=host ubuntu
+
+netstat -nap | head
+

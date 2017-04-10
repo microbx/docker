@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+docker -H unix:///tmp/dockerapi.sock ps -a
+

@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+docker run -v /shared-data --name dc busybox \
+  touch /shared-data/somefile

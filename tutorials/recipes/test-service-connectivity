@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+docker exec c1 ip addr | grep 'inet.*eth'
+
+docker exec c2 ip addr | grep 'inet.*eth'
+
+docker exec c1 ping -qc1 c2service
+
+docker exec c1 ping -qc1 172.18.0.6

@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+docker ps -a -q | \
+    xargs --no-run-if-empty docker rm -f

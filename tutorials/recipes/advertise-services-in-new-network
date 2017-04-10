@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+docker run -it -d --name c1 ubuntu:14.04.2 bash
+
+docker service publish c1service.mynet
+
+docker service attach c1 c1service.mynet
+
+docker run -it -d --name c2 \
+    --publish-service=c2service.mynet ubuntu:14.04.2 bash
+
+docker service ls --network mynet
+

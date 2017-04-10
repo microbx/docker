@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+docker -H tcp://<your host's ip>:2375
+

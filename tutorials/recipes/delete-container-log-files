@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+docker exec -d sleeper \
+    find / -ctime 7 -name '*log' -exec rm {} \;
+

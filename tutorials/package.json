@@ -1,0 +1,17 @@
+{
+  "name": "microbe-app",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/nodemon index.js"
+  },
+  "dependencies": {
+    "boom": "^4.3.1",
+    "dotenv": "^4.0.0",
+    "hapi": "^16.1.1",
+    "joi": "^10.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}

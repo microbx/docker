@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+docker run --log-driver=journald ubuntu echo 'outputting to journald'
+
+journalctl | grep 'outputting to journald'

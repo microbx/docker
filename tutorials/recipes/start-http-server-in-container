@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+ip addr | grep 'inet ' | grep -v 'lo$\|docker0$'
+    inet 10.194.12.221/20 brd 10.194.15.255 scope global eth0
+
+HTTPIP=http://10.194.12.221
+
+docker run -d --name py1 -p 80 ubuntu:14.04.2 \
+  sh -c 'cd / && python3 -m http.server 80'
+
+docker inspect -f '{{.NetworkSettings.Ports}}' py1
+map[80/tcp:[map[HostIp:0.0.0.0 HostPort:49156]]]
+
+curl -s localhost:49156 | tail

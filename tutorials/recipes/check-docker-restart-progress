@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+journalctl -u docker
+
+journalctl -u docker -f
+

@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+docker run -ti progrium/busybox /bin/ash
+    / # opkg-install bash > /dev/null
+    / # bash
+    bash-4.3

@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+docker run -ti log-cleaner /bin/bash
+
