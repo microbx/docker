@@ -1,13 +1,16 @@
 [npm](https://www.npmjs.com/package/sinopia)
 
-# installation and starting (application will create default
-# config in config.yaml you can edit later)
-$ npm install -g sinopia
-$ sinopia
+Sinopia (Docker Image)
+Sinopia is a private npm repository server
 
-# npm configuration
-$ npm set registry http://localhost:4873/
+Installing Image
+docker pull keyvanfatehi/sinopia:latest
 
-# if you use HTTPS, add an appropriate CA information
-# ("null" means get CA list from OS)
-$ npm set ca null
+Creating Container
+docker run --name sinopia -d -p 4873:4873 keyvanfatehi/sinopia:latest
+
+Setting Registry
+npm set registry http://<docker_host>:4873/
+
+Determining Username and Password
+docker logs sinopia
