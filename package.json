@@ -8,9 +8,10 @@
     "type": "git",
     "url": "https://github.com/cbdowell/microbe-docker.git"
 },
-  "scripts": {
-    "commit": "git-cz"
-  },
+"scripts": {
+  "commit": "git-cz",
+  "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+},
   "devDependencies": {
     "commitizen": "2.9.6",
     "cz-conventional-changelog": "2.0.0",
