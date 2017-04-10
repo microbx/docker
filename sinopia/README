@@ -1,6 +1,5 @@
 [npm](https://www.npmjs.com/package/sinopia)
 
-
 # installation and starting (application will create default
 # config in config.yaml you can edit later)
 $ npm install -g sinopia
