@@ -19,6 +19,9 @@
     "semantic-release-cli": "3.0.3",
     "semantic-release": "^6.3.2"
   },
+  "release": {
+      "debug": false
+  },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
