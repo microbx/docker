@@ -1,5 +1,10 @@
 sinopia
 
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/cbdowell/microbe-docker.git
+git push -u origin master
 
 semantic-release-cli
 --------------------
@@ -22,3 +27,4 @@ each release, in the format that lerna expects for the `lerna updated` command.
 
 TODO: https://www.npmjs.com/package/lerna
 TODO: http://commitizen.github.io/cz-cli/
+https://www.sparkleshare.org/
