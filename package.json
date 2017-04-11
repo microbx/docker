@@ -10,6 +10,7 @@
   },
   "scripts": {
     "packages:bootstrap": "lerna bootstrap",
+    "packages:diff": "lerna diff",
     "packages:init": "lerna init",
     "packages:list": "lerna ls",
     "packages:run": "lerna run",
