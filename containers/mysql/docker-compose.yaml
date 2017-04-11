@@ -1,2 +1,5 @@
-mysql:
-  image: mysql:latest
+version: "2"
+
+services:
+    mysql:
+        image: mysql:latest
