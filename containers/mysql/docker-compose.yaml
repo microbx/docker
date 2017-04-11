@@ -1,2 +1,2 @@
 mongo:
-  image: mongo:3.4.3
+  image: mysql:latest
