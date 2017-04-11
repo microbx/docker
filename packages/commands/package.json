@@ -1,5 +1,6 @@
 {
   "name": "microbe-commands",
   "version": "0.0.1",
+  "repository": "https://github.com/cbdowell/microbe-docker/tree/master/packages/commands",
   "main": "dist/index.js"
 }
