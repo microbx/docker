@@ -1,7 +1,6 @@
 {
   "name": "microbe-repl",
   "version": "0.0.1",
-  "main": "dist",
-  "main": "dist",
+  "main": "dist/index.js",
   "license": "MIT"
 }
