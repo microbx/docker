@@ -1,2 +1,2 @@
-mongo:
+rabbit:
   image: rabbitmq:latest
