@@ -9,12 +9,13 @@
     "url": "https://github.com/cbdowell/microbe-docker.git"
   },
   "scripts": {
+    "commit": "git-cz",
     "packages:bootstrap": "lerna bootstrap",
     "packages:diff": "lerna diff",
     "packages:init": "lerna init",
     "packages:list": "lerna ls",
     "packages:run": "lerna run",
-    "commit": "git-cz",
+    "packages:updated": "lerna updated",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "devDependencies": {
