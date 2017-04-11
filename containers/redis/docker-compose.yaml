@@ -1,2 +1,2 @@
 rabbit:
-  image: rabbitmq:latest
+  image: redis:latest
