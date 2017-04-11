@@ -10,7 +10,7 @@ WORKDIR /opt/sinopia
 
 RUN npm install js-yaml sinopia
 RUN chown -R sinopia:sinopia /opt/sinopia
-RUN npm set registry http://localhost:4873/
+#RUN npm set registry http://localhost:4873/
 
 USER sinopia
 
