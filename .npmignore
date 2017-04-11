@@ -1,0 +1,7 @@
+packages
+containers
+.atomignore
+.env
+docker-stack.yml
+.languagebabel
+.babelrc
