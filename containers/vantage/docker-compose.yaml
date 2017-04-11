@@ -1,2 +1,2 @@
-repl:
-  image: microbe/repl:latest
+vantage:
+  image: microbe/vantage:latest
