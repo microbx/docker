@@ -29,6 +29,7 @@
     "cz-conventional-changelog": "2.0.0",
     "eslint": "3.19.0",
     "eslint-config-babel": "6.0.0",
+    "eslint-plugin-flowtype": "2.30.4",
     "flow-bin": "0.43.1",
     "jest-cli": "19.0.2",
     "lerna": "2.0.0-rc.1",
