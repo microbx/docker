@@ -6,6 +6,7 @@ packages/*/src
 
 [libs]
 libs/
+flow-typed/
 
 [options]
 strip_root=true
