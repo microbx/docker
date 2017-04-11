@@ -1,2 +1,5 @@
-mongo:
-  image: mongo:latest
+version: "2"
+
+services:
+    mongo:
+        image: mongo:latest
