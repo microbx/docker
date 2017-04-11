@@ -1,2 +1,2 @@
 mongo:
-  image: postgres:latest
+  image: rabbitmq:latest
