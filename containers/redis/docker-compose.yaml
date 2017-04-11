@@ -1,2 +1,5 @@
-rabbit:
-  image: redis:latest
+version: "2"
+
+services:
+    redis:
+      image: redis:latest
