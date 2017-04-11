@@ -14,6 +14,7 @@
     "packages:diff": "lerna diff",
     "packages:init": "lerna init",
     "packages:list": "lerna ls",
+    "packages:publish": "lerna publish",
     "packages:run": "lerna run",
     "packages:updated": "lerna updated",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
