@@ -1,9 +1,9 @@
 #!/bin/bash
 
-if [ ! -f config.yaml ]; then
-    cp /tmp/config.yaml /opt/sinopia/config.yaml
+if [ ! -f config.xml ]; then
+    cp /tmp/config.xml /opt/sparkleshare/config.xml
 fi
 
-cat /opt/sinopia/config.yaml
+cat /opt/sparkleshare/config.xml
 
-node /opt/sinopia/node_modules/sinopia/bin/sinopia --config /opt/sinopia/config.yaml
+node /opt/sparkleshare/node_modules/sparkleshare/bin/sparkleshare --config /opt/sparkleshare/config.xml
