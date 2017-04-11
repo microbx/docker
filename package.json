@@ -12,6 +12,7 @@
     "packages:bootstrap": "lerna bootstrap",
     "packages:init": "lerna init",
     "packages:list": "lerna ls",
+    "packages:run": "lerna run",
     "commit": "git-cz",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
