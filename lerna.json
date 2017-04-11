@@ -1,11 +1,12 @@
 {
     "lerna": "2.0.0-rc.1",
     "packages": [
-        "packages/*"
+        "packages/*",
+        "constainers/*"
     ],
     "version": "0.0.1",
     "changelog": {
-        "repo": "cbdowell/microbe-docker",
+        "repo": "cbdowell/microbe-ecosystem",
         "labels": {
             "tag: new feature": ":rocket: New Feature",
             "tag: breaking change": ":boom: Breaking Change",
