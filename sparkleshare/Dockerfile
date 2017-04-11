@@ -17,3 +17,5 @@ ADD /config.json /tmp/config.json
 ADD /start.sh /opt/sparkleshare/start.sh
 
 CMD ["/opt/sparkleshare/start.sh"]
+
+expose 5000
