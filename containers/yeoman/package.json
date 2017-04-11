@@ -1,5 +1,5 @@
 {
-    "name": "docker-microbe-generators",
+    "name": "docker-microbe-yeoman",
     "version": "0.0.1",
     "license": "MIT",
     "main": "dist/index.js",
