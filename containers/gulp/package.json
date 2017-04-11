@@ -1,5 +1,5 @@
 {
-    "name": "docker-microbe-build",
+    "name": "docker-microbe-gulp",
     "version": "0.0.1",
     "license": "MIT",
     "main": "dist/index.js",
