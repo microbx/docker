@@ -1,5 +1,5 @@
 {
-  "name": "microbe-api",
+  "name": "microbe-commands",
   "version": "0.0.1",
   "main": "dist/index.js"
 }
