@@ -1,0 +1,12 @@
+)]}
+{
+ "version": 3,
+ "sources": "/home/chris/SparkleShare/microbe-docker/packages/preset/src/index.js",
+ "file": "/home/chris/SparkleShare/microbe-docker/packages/preset/dist/index.js",
+ "sourceRoot": "",
+ "names": [
+  "console",
+  "log"
+ ],
+ "mappings": ";;AAAAA,QAAQC,GAAR,CAAY,SAAZ"
+}
