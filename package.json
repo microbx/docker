@@ -10,6 +10,7 @@
     },
     "scripts": {
         "packages:bootstrap": "lerna bootstrap",
+        "packages:init": "lerna init",
         "packages:list": "lerna ls",
         "commit": "git-cz",
         "semantic-release": "semantic-release pre && npm publish && semantic-release post"
