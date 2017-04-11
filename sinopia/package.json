@@ -2,6 +2,7 @@
     "name": "sinopia",
     "version": "0.0.1",
     "scripts": {
-        "start": "echo 'foo'"
+        "build": "docker-compose build",
+        "start": "docker-compose up"
     }
 }
