@@ -4,5 +4,3 @@ services:
         build: .
         ports:
             - "4873:4873"
-        volumes:
-            - .:/opt/sinopia
