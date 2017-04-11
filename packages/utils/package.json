@@ -1,8 +1,6 @@
 {
   "name": "microbe-utils",
   "version": "0.0.1",
-  "main": "dist/index.js",
-  "dependencies": {
-    "lodash": "4.17.4"
-  }
+  "repository": "https://github.com/cbdowell/microbe-docker/tree/master/packages/utils",
+  "main": "dist/index.js"
 }
