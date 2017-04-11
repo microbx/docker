@@ -13,7 +13,7 @@ RUN chown -R sparkleshare:sparkleshare /opt/sparkleshare
 
 USER sparkleshare
 
-ADD /config.json /tmp/config.json
+ADD /config.xml /tmp/config.xml
 ADD /start.sh /opt/sparkleshare/start.sh
 
 CMD ["/opt/sparkleshare/start.sh"]
