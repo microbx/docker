@@ -1,5 +1,6 @@
 [ignore]
 .*/packages/.*/dist
+containers/*/dist
 
 [include]
 packages/*/src
