@@ -1,5 +1,6 @@
 
 FROM ubuntu:14.04
+
 MAINTAINER Sytse Sijbrandij
 
 # Install required packages
