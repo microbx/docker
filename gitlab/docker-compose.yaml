@@ -1,15 +1,2 @@
-git:
-  build: .
-  restart: always
-  hostname: 'git.microbe.com'
-  environment:
-    GITLAB_OMNIBUS_CONFIG: |
-      external_url 'http://git.microbe.com:8929'
-      gitlab_rails['gitlab_shell_ssh_port'] = 2289
-  ports:
-    - '8929:80'
-    - '2289:22'
-  volumes:
-    - '/etc/gitlab'
-    - '/var/log/gitlab'
-    - '/var/opt/gitlab'
+app:
+  image: gitlab/gitlab-ce:latest
