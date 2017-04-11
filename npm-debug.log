@@ -2,72 +2,42 @@
 1 verbose cli [ '/home/chris/.nvm/versions/node/v7.5.0/bin/node',
 1 verbose cli   '/home/chris/.nvm/versions/node/v7.5.0/bin/npm',
 1 verbose cli   'install',
-1 verbose cli   '-g',
+1 verbose cli   '--save-dev',
 1 verbose cli   'babel-cli' ]
 2 info using npm@4.1.2
 3 info using node@v7.5.0
 4 silly loadCurrentTree Starting
 5 silly install loadCurrentTree
-6 silly install readGlobalPackageData
-7 silly fetchPackageMetaData babel-cli
-8 silly fetchNamedPackageData babel-cli
-9 silly mapToRegistry name babel-cli
-10 silly mapToRegistry using default registry
-11 silly mapToRegistry registry http://localhost:4873/
-12 silly mapToRegistry data Result {
-12 silly mapToRegistry   raw: 'babel-cli',
-12 silly mapToRegistry   scope: null,
-12 silly mapToRegistry   escapedName: 'babel-cli',
-12 silly mapToRegistry   name: 'babel-cli',
-12 silly mapToRegistry   rawSpec: '',
-12 silly mapToRegistry   spec: 'latest',
-12 silly mapToRegistry   type: 'tag' }
-13 silly mapToRegistry uri http://localhost:4873/babel-cli
-14 verbose request uri http://localhost:4873/babel-cli
-15 verbose request no auth needed
-16 info attempt registry request try #1 at 7:52:37 PM
-17 verbose request using bearer token for auth
-18 verbose request id 85d8c37bfce59870
-19 http request GET http://localhost:4873/babel-cli
-20 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 127.0.0.1:4873
-21 info attempt registry request try #2 at 7:52:48 PM
-22 verbose request using bearer token for auth
-23 http request GET http://localhost:4873/babel-cli
-24 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 127.0.0.1:4873
-25 info attempt registry request try #3 at 7:53:48 PM
-26 verbose request using bearer token for auth
-27 http request GET http://localhost:4873/babel-cli
-28 silly fetchPackageMetaData Error: connect ECONNREFUSED 127.0.0.1:4873
-28 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1023:11)
-28 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1046:20)
-28 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
-28 silly fetchPackageMetaData  error for babel-cli { Error: connect ECONNREFUSED 127.0.0.1:4873
-28 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1023:11)
-28 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1046:20)
-28 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1090:14)
-28 silly fetchPackageMetaData   code: 'ECONNREFUSED',
-28 silly fetchPackageMetaData   errno: 'ECONNREFUSED',
-28 silly fetchPackageMetaData   syscall: 'connect',
-28 silly fetchPackageMetaData   address: '127.0.0.1',
-28 silly fetchPackageMetaData   port: 4873 }
-29 silly rollbackFailedOptional Starting
-30 verbose stack TypeError: Cannot read property 'path' of null
-30 verbose stack     at Installer.rollbackFailedOptional (/home/chris/.nvm/versions/node/v7.5.0/lib/node_modules/npm/lib/install.js:511:29)
-30 verbose stack     at Array.<anonymous> (/home/chris/.nvm/versions/node/v7.5.0/lib/node_modules/npm/node_modules/slide/lib/bind-actor.js:15:8)
-30 verbose stack     at LOOP (/home/chris/.nvm/versions/node/v7.5.0/lib/node_modules/npm/node_modules/slide/lib/chain.js:15:14)
-30 verbose stack     at /home/chris/.nvm/versions/node/v7.5.0/lib/node_modules/npm/node_modules/slide/lib/chain.js:18:7
-30 verbose stack     at /home/chris/.nvm/versions/node/v7.5.0/lib/node_modules/npm/lib/install.js:337:5
-30 verbose stack     at Array.<anonymous> (/home/chris/.nvm/versions/node/v7.5.0/lib/node_modules/npm/node_modules/slide/lib/bind-actor.js:15:8)
-30 verbose stack     at LOOP (/home/chris/.nvm/versions/node/v7.5.0/lib/node_modules/npm/node_modules/slide/lib/chain.js:15:14)
-30 verbose stack     at chain (/home/chris/.nvm/versions/node/v7.5.0/lib/node_modules/npm/node_modules/slide/lib/chain.js:20:5)
-30 verbose stack     at /home/chris/.nvm/versions/node/v7.5.0/lib/node_modules/npm/lib/install.js:294:5
-30 verbose stack     at /home/chris/.nvm/versions/node/v7.5.0/lib/node_modules/npm/node_modules/slide/lib/chain.js:16:22
-31 verbose cwd /home/chris/SparkleShare/microbe-docker
-32 error Linux 4.4.0-53-generic
-33 error argv "/home/chris/.nvm/versions/node/v7.5.0/bin/node" "/home/chris/.nvm/versions/node/v7.5.0/bin/npm" "install" "-g" "babel-cli"
-34 error node v7.5.0
-35 error npm  v4.1.2
-36 error Cannot read property 'path' of null
-37 error If you need help, you may report this error at:
-37 error     <https://github.com/npm/npm/issues>
-38 verbose exit [ 1, true ]
+6 silly install readLocalPackageData
+7 silly rollbackFailedOptional Starting
+8 silly rollbackFailedOptional Finishing
+9 silly runTopLevelLifecycles Finishing
+10 silly install printInstalled
+11 verbose stack Error: Failed to parse json
+11 verbose stack Unexpected token 'd' at 3:6
+11 verbose stack     "description": "microbes-ecosystem",
+11 verbose stack      ^
+11 verbose stack     at parseError (/home/chris/.nvm/versions/node/v7.5.0/lib/node_modules/npm/node_modules/read-package-json/read-json.js:390:11)
+11 verbose stack     at parseJson (/home/chris/.nvm/versions/node/v7.5.0/lib/node_modules/npm/node_modules/read-package-json/read-json.js:79:23)
+11 verbose stack     at /home/chris/.nvm/versions/node/v7.5.0/lib/node_modules/npm/node_modules/read-package-json/read-json.js:48:5
+11 verbose stack     at /home/chris/.nvm/versions/node/v7.5.0/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:78:16
+11 verbose stack     at tryToString (fs.js:426:3)
+11 verbose stack     at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:413:12)
+12 verbose cwd /home/chris/SparkleShare/microbe-docker
+13 error Linux 4.4.0-53-generic
+14 error argv "/home/chris/.nvm/versions/node/v7.5.0/bin/node" "/home/chris/.nvm/versions/node/v7.5.0/bin/npm" "install" "--save-dev" "babel-cli"
+15 error node v7.5.0
+16 error npm  v4.1.2
+17 error file /home/chris/SparkleShare/microbe-docker/package.json
+18 error code EJSONPARSE
+19 error Failed to parse json
+19 error Unexpected token 'd' at 3:6
+19 error     "description": "microbes-ecosystem",
+19 error      ^
+20 error File: /home/chris/SparkleShare/microbe-docker/package.json
+21 error Failed to parse package.json data.
+21 error package.json must be actual JSON, not just JavaScript.
+21 error
+21 error This is not a bug in npm.
+21 error Tell the package author to fix their package.json file. JSON.parse
+22 verbose exit [ 1, true ]
