@@ -1,5 +1,5 @@
 {
-    "name": "docker-microbe-cadvisor",
+    "name": "docker-microbe-build",
     "version": "0.0.1",
     "license": "MIT",
     "main": "dist/index.js",
