@@ -1,5 +1,9 @@
 {
-  "name": "sparkleshare",
-  "version": "0.0.1",
-  "license": "MIT"
+    "name": "sinopia",
+    "version": "0.0.1",
+    "scripts": {
+        "remove": "docker-compose rm",
+        "build": "docker-compose build",
+        "start": "docker-compose up"
+    }
 }
