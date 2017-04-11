@@ -1,6 +1,6 @@
 {
   "name": "microbe-components",
   "version": "0.0.1",
-  commands
+  "repository": "https://github.com/cbdowell/microbe-docker/tree/master/packages/components",
   "main": "dist/index.js"
 }
