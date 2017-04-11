@@ -1,7 +1,7 @@
 version: "2"
 
 services:
-    sparkleshare:
+    cadvisor:
         build: .
         ports:
             - "5000:5000"
