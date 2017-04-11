@@ -1,5 +1,5 @@
 {
-    "name": "docker-microbe-jekyll",
+    "name": "docker-microbe-generators",
     "version": "0.0.1",
     "license": "MIT",
     "main": "dist/index.js",
