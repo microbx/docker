@@ -1,7 +1,7 @@
 
 FROM ubuntu:14.04
 
-MAINTAINER Sytse Sijbrandij
+MAINTAINER Christopher Dowell <cbdowell@gmail.com>
 
 # Install required packages
 RUN apt-get update -q \
