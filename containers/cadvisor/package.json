@@ -2,6 +2,7 @@
     "name": "docker-microbe-cadvisor",
     "version": "0.0.1",
     "license": "MIT",
+    "repository": "https://github.com/cbdowell/microbe-docker/tree/master/containers/cadvisor",
     "main": "dist/index.js",
     "scripts": {
         "remove": "docker-compose rm",
