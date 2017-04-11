@@ -1,5 +1,5 @@
 {
-    "name": "sparkleshare",
+    "name": "docker-microbe-sparkleshare",
     "version": "0.0.1",
     "license": "MIT",
     "main": "dist/index.js",
