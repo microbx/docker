@@ -13,7 +13,6 @@
     "packages:init": "lerna init",
     "packages:list": "lerna ls",
     "packages:run": "lerna run",
-    "foo": "echo 'bar'",
     "commit": "git-cz",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
