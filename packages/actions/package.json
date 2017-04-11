@@ -1,6 +1,7 @@
 {
     "name": "microbe-actions",
     "version": "0.0.1",
+    "repository": "https://github.com/cbdowell/microbe-docker/tree/master/packages/actions",
     "main": "dist/index.js",
     "scripts": {
         "foo": "echo 'bar'"
