@@ -1,2 +1,2 @@
-rabbit:
+repl:
   image: microbe/repl:latest
