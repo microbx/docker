@@ -9,6 +9,6 @@
   "disableWhenNoBabelrcFileInPath":   true,
   "projectRoot":                      true,
   "suppressSourcePathMessages":       true,
-  "suppressTranspileOnSaveMessages":  false,
+  "suppressTranspileOnSaveMessages":  true,
   "transpileOnSave":                  true
 }
