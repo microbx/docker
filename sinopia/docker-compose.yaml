@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+
+    sinopia:
+        build: .
+        ports:
+            - 4873:4873
+        volumes:
+            - .
