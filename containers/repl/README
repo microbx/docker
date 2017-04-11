@@ -1,0 +1,19 @@
+docker-microbe-sinopia
+======================
+
+[npm](https://www.npmjs.com/package/sinopia)
+
+Sinopia (Docker Image)
+Sinopia is a private npm repository server
+
+Installing Image
+docker pull keyvanfatehi/sinopia:latest
+
+Creating Container
+docker run --name sinopia -d -p 4873:4873 keyvanfatehi/sinopia:latest
+
+Setting Registry
+npm set registry http://<docker_host>:4873/
+
+Determining Username and Password
+docker logs sinopia
