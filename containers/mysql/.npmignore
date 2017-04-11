@@ -1,0 +1,16 @@
+packages
+containers
+.atomignore
+.env
+Dockfile
+docker-compose.yml
+docker-stack.yml
+.languagebabel
+.babelrc
+types
+.flowconfig
+docs
+data
+config
+logs
+src
