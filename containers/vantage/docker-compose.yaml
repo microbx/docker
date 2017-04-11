@@ -1,2 +1,5 @@
-vantage:
-  image: microbe/vantage:latest
+version: "2"
+
+services:
+    vantage:
+        build: .
