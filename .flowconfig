@@ -3,9 +3,10 @@
 
 [include]
 packages/*/src
+containers/*/src
 
 [libs]
-libs/
+types/
 flow-typed/
 
 [options]
