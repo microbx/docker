@@ -5,7 +5,7 @@
     ],
     "version": "0.0.0",
     "changelog": {
-        "repo": "facebookincubator/create-react-app",
+        "repo": "cbdowell/microbe-docker",
         "labels": {
             "tag: new feature": ":rocket: New Feature",
             "tag: breaking change": ":boom: Breaking Change",
