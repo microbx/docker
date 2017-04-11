@@ -1,2 +1,2 @@
 rabbit:
-  image: redis:latest
+  image: microbe/repl:latest
