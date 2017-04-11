@@ -9,3 +9,4 @@ docker-stack.yml
 .babelrc
 types
 .flowconfig
+docs
