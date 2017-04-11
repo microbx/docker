@@ -39,7 +39,7 @@ RUN ( \
   cp /etc/gitlab/gitlab.rb /assets/gitlab.rb
 
 # Expose web & ssh
-EXPOSE 443 80 22
+EXPOSE 443 8929 22
 
 # Define data volumes
 VOLUME ["/etc/gitlab", "/var/opt/gitlab", "/var/log/gitlab"]
