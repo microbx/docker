@@ -1,2 +1,5 @@
-postgres:
-  image: postgres:latest
+version: "2"
+
+services:
+    postgres:
+        image: postgres:latest
