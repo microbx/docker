@@ -1,5 +1,6 @@
 {
-    "name": "microbes-ecosystem",
+    "name": "microbe-docker"
+    "description": "microbes-ecosystem",
     "version": "0.0.1",
     "private": true,
     "license": "MIT",
