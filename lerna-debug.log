@@ -1,0 +1,18 @@
+lerna(info)    Lerna v2.0.0-rc.1
+lerna(verbose) GitUtilities.isInitialized    (".")
+lerna(verbose) GitUtilities.isInitialized    (".") => true
+lerna(verbose) FileSystemUtilities.existsSync("./VERSION")
+lerna(verbose) FileSystemUtilities.existsSync("./VERSION") => false
+lerna(verbose) Attempting running RunCommand.initialize
+lerna(error)   Errored while running RunCommand.initialize
+    Error: You must specify which npm script to run.
+        at RunCommand.initialize (/home/chris/.nvm/versions/node/v7.5.0/lib/node_modules/lerna/lib/commands/RunCommand.js:48:18)
+        at RunCommand._attempt (/home/chris/.nvm/versions/node/v7.5.0/lib/node_modules/lerna/lib/Command.js:219:21)
+        at RunCommand.runCommand (/home/chris/.nvm/versions/node/v7.5.0/lib/node_modules/lerna/lib/Command.js:203:12)
+        at RunCommand.run (/home/chris/.nvm/versions/node/v7.5.0/lib/node_modules/lerna/lib/Command.js:105:12)
+        at Object.<anonymous> (/home/chris/.nvm/versions/node/v7.5.0/lib/node_modules/lerna/bin/lerna.js:77:11)
+        at Module._compile (module.js:571:32)
+        at Object.Module._extensions..js (module.js:580:10)
+        at Module.load (module.js:488:32)
+        at tryModuleLoad (module.js:447:12)
+        at Function.Module._load (module.js:439:3)
