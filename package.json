@@ -10,6 +10,7 @@
   },
   "scripts": {
     "commit": "git-cz",
+    "changelog": "lerna-changelog",
     "postinstall": "lerna bootstrap",
     "packages:diff": "lerna diff",
     "packages:init": "lerna init",
