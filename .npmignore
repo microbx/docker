@@ -12,3 +12,5 @@ types
 docs
 data
 config
+logs
+src
