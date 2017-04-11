@@ -1,2 +1,5 @@
-rabbit:
-  image: rabbitmq:latest
+version: "2"
+
+services:
+    rabbit:
+        image: rabbitmq:latest
