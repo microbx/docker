@@ -1,6 +1,5 @@
 {
-  "name": "gitlab",
+  "name": "docker-gitlab",
   "version": "0.0.1",
-  "main": "index.js",
   "license": "MIT"
 }
