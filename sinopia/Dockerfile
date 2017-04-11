@@ -21,5 +21,3 @@ ADD /htpasswd /opt/sinopia/htpasswd
 CMD ["/opt/sinopia/start.sh"]
 
 EXPOSE 4873
-
-VOLUME /opt/sinopia
