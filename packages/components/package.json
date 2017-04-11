@@ -1,5 +1,6 @@
 {
   "name": "microbe-components",
   "version": "0.0.1",
+  commands
   "main": "dist/index.js"
 }
