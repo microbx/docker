@@ -10,3 +10,5 @@ docker-stack.yml
 types
 .flowconfig
 docs
+data
+config
