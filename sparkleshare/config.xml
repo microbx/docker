@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<sparkleshare>
+  <user>
+    <name>Christopher Dowell</name>
+    <email>cbdowell@gmail.com</email>
+  </user>
+  <notifications>True</notifications>
+  <folder>
+    <name>microbe-docker</name>
+    <identifier>4e6eec6aad1da9f6d6f2d483028880ca201ee004</identifier>
+    <url>ssh://git@github.com/cbdowell/microbe-docker</url>
+    <backend>Git</backend>
+  </folder>
+</sparkleshare>
