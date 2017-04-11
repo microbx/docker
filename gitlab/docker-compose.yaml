@@ -1,2 +1,2 @@
-app:
+gitlab:
   image: gitlab/gitlab-ce:latest
