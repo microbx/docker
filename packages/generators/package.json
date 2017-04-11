@@ -1,0 +1,6 @@
+{
+  "name": "babel-preset-microbe",
+  "version": "0.0.1",
+  "main": "dist",
+  "license": "MIT"
+}
