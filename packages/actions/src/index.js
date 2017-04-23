@@ -1,1 +1,3 @@
-console.log('sdfsdfs')
+"use strict";
+
+console.log("sdfsdfs");

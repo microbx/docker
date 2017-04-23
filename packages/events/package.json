@@ -1,6 +1,0 @@
-{
-  "name": "microbe-events",
-  "version": "0.0.1",
-  "repository": "https://github.com/cbdowell/microbe-docker/tree/master/packages/events",
-  "main": "dist/index.js"
-}

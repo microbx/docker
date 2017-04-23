@@ -1,6 +1,0 @@
-{
-  "name": "microbe-generators",
-  "version": "0.0.1",
-  "repository": "https://github.com/cbdowell/microbe-docker/tree/master/packages/generators",
-  "main": "dist/index.js"
-}

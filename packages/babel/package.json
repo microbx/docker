@@ -1,6 +1,0 @@
-{
-  "name": "babel-preset-microbe",
-  "version": "0.0.1",
-  "repository": "https://github.com/cbdowell/microbe-docker/tree/master/packages/babel",
-  "main": "dist/index.js"
-}

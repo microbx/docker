@@ -1,14 +1,13 @@
 {
-  "babelMapsPath":                    "dist",
-  "babelMapsAddUrl":                  true,
-  "babelSourcePath":                  "src",
-  "babelTranspilePath":               "dist",
-  "createMap":                        true,
-  "createTargetDirectories":          true,
+  "babelMapsPath":                    "",
+  "babelMapsAddUrl":                  false,
+  "babelSourcePath":                  "",
+  "babelTranspilePath":               "",
+  "createMap":                        false,
+  "createTargetDirectories":          false,
   "createTranspiledCode":             true,
   "disableWhenNoBabelrcFileInPath":   true,
-  "projectRoot":                      true,
-  "suppressSourcePathMessages":       true,
-  "suppressTranspileOnSaveMessages":  true,
+  "suppressSourcePathMessages":       false,
+  "suppressTranspileOnSaveMessages":  false,
   "transpileOnSave":                  true
 }
